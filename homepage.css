@@ -1,0 +1,140 @@
+body{
+      background-image:url(homepage.jpg);
+
+}
+
+h1{
+    text-decoration: solid;
+    text-decoration-color: aliceblue;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div{
+    color:#ffffff;
+    display: inline;
+    WIDTH:100PX;
+    height: 30px;
+    float: none;
+    border: 2px,2px,2px,2px;
+    border-color: coral;
+    background-color: coral;
+    position: relative;
+    LEFT:50%;
+    RIGHT:20PX;
+    padding: 4px;
+    margin: 4px;
+    text-align: center;
+}
+
+.RIGHT{
+    HEIGHT:50px;
+    WIDTH:120PX;
+    position:static;
+    height: 30px;
+}
+
+section{
+    color:#ffffff;
+    font-size:150%;
+    display: inline-block;
+    height: 30%;
+    width:80%;
+    position: relative;
+    top: 20%;
+    left: 5%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.logininbox{
+    width: 320px;
+    height: 420px;
+    background:black;
+    color: #fff;
+    position:relative;
+    top:25%;
+    left:80%;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box solid 4px;
+    padding: 60PX 40PX;
+    font-family: sans-serif;
+}
+
+.icon{
+     width:100px;
+     height:100px;
+     border-radius:50%;
+     position: absolute;
+     top: -50px;
+     left: calc(30%);
+
+
+}
+
+FORM{
+    color: #ffffff;
+}
+
+a{
+    color: #fff;
+}
+
+.logininbox p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+
+}
+
+.logininbox input{
+    width: 250px;
+    margin-bottom: 20px;
+
+}
+
+.logininbox input[type="text"],input[type="password"]{ 
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+
+
+}
+
+.logininbox INPUT[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background:coral;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.logininbox INPUT[type="submit"]:hover{ 
+    cursor: pointer;
+    background:black;
+}
+
+.logininbox a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgray;
+}
+
+.logininbox a:hover{
+    color: #fff;
+}
+
+h2{
+    text-align: center;
+    color:white;
+    font-size: 18PX;
+}
+
+
+
